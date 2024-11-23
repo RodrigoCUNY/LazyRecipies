@@ -1,0 +1,435 @@
+/*HOME PAGE*/ 
+        /* Body styling */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: white;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFFF00 !important;
+        }
+
+        /* Hero Section */
+        .hero-page-one {
+            padding: 100px 0;
+            background-image: url('images/avocado-toast1.jpg'); /* Placeholder for your hero image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #FFFF00 ;
+            
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero-page-one h1 {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero-page-one h2 {
+            font-size: 2rem;
+            font-weight: 300;
+            color: azure;
+        }
+
+        /* Recipe Section */
+        .recipe-section img {
+            border-radius: 25px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .recipe-section .btn {
+            background-color: green;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .recipe-section .btn:hover {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Responsive media queries */
+        @media (max-width: 768px) {
+            .hero-page-one h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-page-one h2 {
+                font-size: 1.5rem;
+            }
+
+            .recipe-section .btn {
+                font-size: 1rem;
+            }
+        }
+
+          /* Copyrights section */
+          .copyrights {
+            padding-top: 40px;
+            margin: 0;
+            text-align: center;
+            background-image: url('https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%; 
+            height: 100px;
+        }
+
+
+/* AVOCADO PAGE*/ 
+/* Body styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center nav links */
+}
+
+.navbar-brand,
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFF00 !important;
+}
+
+/* Cover Section */
+.cover-avocado {
+    height: 300px;
+    padding: 50px;
+    background-image: url('images/avocado-toast1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headline styling */
+h1.headline {
+    color: #FFFF00;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    margin: 20px 10%;
+    text-align: center;
+}
+
+/* Ingredients and Instructions */
+h2.ingredients,
+h2.instructions {
+    color: #FFFF00;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+/* Video and Map Styling */
+.embed-responsive {
+    margin: 20px auto;
+}
+
+iframe.video, iframe.map {
+    width: 100%;
+    height: 350px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+    h1.headline {
+        font-size: 2.5rem;
+    }
+
+    iframe.video, iframe.map {
+        width: 100%;
+        height: 280px;
+    }
+}
+
+/* Copyrights section */
+.copyrights {
+    padding-top: 40px;
+    margin: 0;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100%; 
+    height: 100px;
+}
+
+/* OMELETTE*/ 
+
+ /* Body styling */
+ body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: 0 auto; /* Center nav links */
+}
+
+.navbar-brand,
+.nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFF00 !important;
+}
+
+/* Cover Section */
+.cover-omelette {
+    height: 300px;
+    padding: 50px;
+    background-image: url('images/omelete-panela.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headline styling */
+h1.headline {
+    color: #FFFF00;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px black;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    margin: 20px 10%;
+    text-align: center;
+}
+
+/* Ingredients and Instructions */
+h2.ingredients,
+h2.instructions {
+    color: #FFFF00;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+/* Video and Map Styling */
+.embed-responsive {
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+    h1.headline {
+        font-size: 2.5rem;
+    }
+
+    iframe.video, iframe.map {
+        width: 100%;
+        height: 280px;
+    }
+}
+
+/* Copyrights section */
+.copyrights {
+    padding-top: 40px;
+    margin: 0;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 100%; 
+    height: 100px;
+}
+
+
+/*SCRAMBBLED*/ 
+        /* Body styling */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: white;
+        }
+
+        .navbar-nav {
+            margin: 0 auto; /* Center nav links */
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFFF00 !important;
+        }
+
+        /* Cover Section */
+        .cover-scrambled-eggs {
+            height: 300px;
+            padding: 50px;
+            background-image: url('images/eggs.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Headline styling */
+        h1.headline {
+            color: #FFFF00;
+            font-size: 3rem;
+            font-weight: 600;
+            text-shadow: 2px 2px 3px black;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1rem;
+            margin: 20px 10%;
+            text-align: center;
+        }
+
+        /* Ingredients and Instructions */
+        h2.ingredients,
+        h2.instructions {
+            color: #FFFF00;
+            font-size: 2rem;
+            margin-top: 20px;
+        }
+
+        ul, ol {
+            text-align: center;
+            list-style-position: inside;
+            padding-left: 0;
+        }
+
+        /* Video and Map Styling */
+        .embed-responsive {
+            margin: 20px auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Responsive media queries */
+        @media (max-width: 768px) {
+            h1.headline {
+                font-size: 2.5rem;
+            }
+
+            iframe.video, iframe.map {
+                width: 100%;
+                height: 280px;
+            }
+        }
+
+        /* Copyrights section */
+        .copyrights {
+            padding-top: 40px;
+            margin: 0;
+            text-align: center;
+            background-image: url('https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-repeat: no-repeat;
+            background-position: fixed;
+            width: 100%; 
+            height: 100px;
+        }

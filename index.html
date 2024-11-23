@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Recipes</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+   <!-- <style>
+        /* Body styling */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: white;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFFF00 !important;
+        }
+
+        /* Hero Section */
+        .hero-page-one {
+            padding: 100px 0;
+            background-image: url('images/avocado-toast1.jpg'); /* Placeholder for your hero image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #FFFF00 ;
+            
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero-page-one h1 {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero-page-one h2 {
+            font-size: 2rem;
+            font-weight: 300;
+            color: azure;
+        }
+
+        /* Recipe Section */
+        .recipe-section img {
+            border-radius: 25px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .recipe-section .btn {
+            background-color: green;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .recipe-section .btn:hover {
+            background-color: yellow;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+
+        /* Responsive media queries */
+        @media (max-width: 768px) {
+            .hero-page-one h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-page-one h2 {
+                font-size: 1.5rem;
+            }
+
+            .recipe-section .btn {
+                font-size: 1rem;
+            }
+        }
+
+          /* Copyrights section */
+          .copyrights {
+            padding-top: 40px;
+            margin: 0;
+            text-align: center;
+            background-image: url('https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%; 
+            height: 100px;
+        }
+
+
+    </style> -->
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand mx-auto" href="index.html">Basic Recipes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scrambbledeggs.html">Scrambled Eggs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="omelette.html">Omelette</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="avocado.html">Avocado Toast</a>
+                </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-page-one text-center">
+        <h1 class="title">Basic Recipes</h1>
+        <h2 class="subtitle">For lazy homebodies</h2>
+    </section>
+
+    <!-- First Recipe: Scrambled Eggs -->
+    <section class="recipe-section container mt-5">
+        <h2 class="eggs">Scrambled Eggs</h2>
+        <p class="eggs-description">This is the recipe for a very simple and homemade scrambled eggs dish.</p>
+        <div class="image-eggs">
+            <img src="images/eggs.jpg" alt="Scrambled eggs" class="img-fluid">
+        </div>
+        <a href="scrambbledeggs.html" class="btn">Eggs Recipe</a>
+    </section>
+
+    <!-- Second Recipe: Omelette -->
+    <section class="recipe-section container mt-5">
+        <h2 class="omelette">Omelettes</h2>
+        <p class="omelette-description">This is a simple Omelette Recipe, click to check out more.</p>
+        <div class="image-omelette">
+            <img src="images/omele-simples.jpg" alt="Omelette" class="img-fluid">
+        </div>
+        <a href="omelette.html" class="btn">Omelette Recipe</a>
+    </section>
+
+    <!-- Third Recipe: Avocado Toast -->
+    <section class="recipe-section container mt-5 mb-5">
+        <h2 class="avocado">Avocado Toast</h2>
+        <p class="avocado-description">This is a simple Avocado Toast recipe, click to know more.</p>
+        <div class="image-avocado">
+            <img src="images/avocado-vertical.jpg" alt="Avocado toast" class="img-fluid" width="900px">
+        </div>
+        <a href="avocado.html" class="btn">Avocado Recipe</a>
+    </section>
+
+    <!-- Map Section -->
+    <div class="container">
+        <h2 class="location">This is our location</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d338400.47715590324!2d150.65178121759495!3d-33.84735685076343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b0515459ccf5%3A0x5017d681632cc40!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1638992087860!5m2!1sen!2sus" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        
+    
+
+    <!-- Copyrights -->
+    <div class="copyrights">
+        <p>&copy; 2024 Recipes. All rights reserved.</p>
+    </div>
+
+    <!-- Include Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</footer>
+</body>
+
+</html>
